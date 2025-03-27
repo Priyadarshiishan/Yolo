@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishan Priyadarshi - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a1a, #000000);
+            color: #e0e0e0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        .logo {
+            font-size: 3em; /* Adjusted logo size */
+            font-weight: bold;
+            color: #1a8cff;
+            text-shadow: 3px 3px 6px rgba(26, 140, 255, 0.7);
+            transition: transform 0.3s ease;
+        }
+
+        .logo:hover {
+            transform: scale(1.05);
+        }
+
+        .hero {
+            text-align: center;
+            padding: 100px 20px; /* Adjusted hero padding */
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 3em; /* Adjusted hero heading size */
+            color: #fff;
+            margin-bottom: 20px; /* Adjusted margin */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .hero p {
+            font-size: 1.2em; /* Adjusted hero paragraph size */
+            line-height: 1.6; /* Adjusted line height */
+            animation: fadeIn 1.2s ease-in-out;
+        }
+
+        .about-me {
+            background-color: rgba(0, 0, 0, 0.9);
+            padding: 60px 20px; /* Adjusted about me padding */
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        .about-me h2 {
+            font-size: 2.5em; /* Adjusted about me heading size */
+            color: #1a8cff;
+            margin-bottom: 20px; /* Adjusted margin */
+        }
+
+        .about-me p {
+            font-size: 1.2em; /* Adjusted about me paragraph size */
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 15px auto; /* Adjusted margin */
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.95);
+            color: #e0e0e0;
+            text-align: center;
+            padding: 20px 0; /* Adjusted footer padding */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.6);
+        }
+
+        footer a {
+            color: #e0e0e0;
+            text-decoration: none;
+            margin-left: 10px; /* Adjusted margin */
+            transition: transform 0.3s ease;
+        }
+
+        footer a:hover {
+            transform: scale(1.1);
+        }
+
+        footer img {
+            width: 30px; /* Adjusted image size */
+            height: 30px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5em; /* Smaller font on mobile */
+            }
+
+            .hero p {
+                font-size: 1em;
+            }
+
+            .about-me h2 {
+                font-size: 2em;
+            }
+
+            .about-me p {
+                font-size: 1em;
+            }
+
+            .logo{
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">IP</div>
+    </header>
+
+    <section class="hero">
+        <h1>Ishan Priyadarshi</h1>
+        <p>Innovating the future, one digital experience at a time.</p>
+    </section>
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>Hello! I'm Ishan Priyadarshi, a digital creator passionate about design and technology. I enjoy crafting unique and engaging experiences. My expertise spans web development and exploring the ever-evolving digital landscape. I'm always eager to learn and collaborate on exciting new projects.</p>
+    </section>
+
+    <footer>
+        <a href="https://www.instagram.com/priyadarshiishan/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+        </a>
+    </footer>
+</body>
+</html>
